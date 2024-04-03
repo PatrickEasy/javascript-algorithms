@@ -39,11 +39,12 @@ export default class GraphVertex {
 
   /**
    * @param {GraphEdge} edge
+   * 
    */
   deleteEdge(edge) {
     this.edges.delete(edge);
   }
-
+  
   /**
    * @returns {GraphVertex[]}
    */
